@@ -1,0 +1,45 @@
+{
+	"name": "colorcube/file-ref-list",
+	"type": "typo3-cms-extension",
+	"description": "TYPO3 extension that provides a module which shows a listing of files used on pages.",
+	"keywords": [
+		"TYPO3",
+		"extension",
+		"file_ref_list",
+		"files",
+		"content",
+		"module"
+	],
+	"license": "GPL-2.0-or-later",
+	"homepage": "https://github.com/colorcube/file_ref_list",
+	"support": {
+		"issues": "https://github.com/colorcube/file_ref_list/issues"
+	},
+	"authors": [
+		{
+			"name": "René Fritz",
+			"email": "r.fritz@colorcube.de",
+			"role": "Developer",
+			"homepage": "http://www.colorcube.de"
+		}
+	],
+	"require": {
+		"php": ">=5.6.0",
+		"typo3/cms-core": "^8.7",
+        "typo3/cms-filelist": "^8.7"
+	},
+	"autoload": {
+		"psr-4": {
+			"Colorcube\\FileRefList\\": "Classes"
+		}
+	},
+	"replace": {
+		"file_ref_list": "self.version",
+		"typo3-ter/file-ref-list": "self.version"
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "file_ref_list"
+		}
+	}
+}
