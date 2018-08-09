@@ -6,6 +6,10 @@ that the page tree is used for navigation. Therefore the files used on a page ar
 One benefit is that one can quickly move the files to the clipboard and later on paste those files inside a folder. 
 This way you can organize files which are directly uploaded in content elements in a folder structure. 
 
+The file module but with a page tree:
+
+![Module Screenshot](Documentation/Images/screenshot.png?raw=true "The file Module but with a page tree")
+
 ### Status ###
 
 In principle this is a modified FILE > Filelist module. This module seems to work as expected. It is not heavily tested.
