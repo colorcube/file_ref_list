@@ -34,7 +34,6 @@
 		}
 	},
 	"replace": {
-		"file_ref_list": "self.version",
 		"typo3-ter/file-ref-list": "self.version"
 	},
 	"extra": {
