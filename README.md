@@ -19,7 +19,7 @@ In principle this is a modified FILE > Filelist module. This module seems to wor
 
 After installation you see the new module in the File section.
 
-Further information and usage details see: https://docs.typo3.org/typo3cms/extensions/file_ref_list/
+Further information and usage details see: https://docs.typo3.org/p/colorcube/file-ref-list/master/en-us/
 
 ### Dependencies
 
